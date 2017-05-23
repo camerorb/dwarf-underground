@@ -3,6 +3,7 @@ import Header from './Header'
 import ArticleLinks from './ArticleLinks'
 import SideAd from './SideAd.js'
 import SubArticles from './SubArticles'
+import FooterB from './FooterB.js'
 import './App.css';
 
 class App extends Component {
@@ -41,10 +42,7 @@ class App extends Component {
           <SideAd />
           <SubArticles />
         </main>
-        <footer className="expanded row">
-          <h6>&copy; 2017 Erebor Industries</h6>
-          <h6 className="float-right">All rights reserved</h6>
-        </footer>
+        <FooterB />
       </div>
     );
   }
